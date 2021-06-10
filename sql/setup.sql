@@ -8,6 +8,7 @@ id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
 first_name TEXT NOT NULL,
 last_name TEXT NOT NULL,
 username TEXT,
+director_img TEXT, 
 email TEXT NOT NULL
 );
 
@@ -27,6 +28,7 @@ id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
 first_name TEXT NOT NULL,
 last_name TEXT NOT NULL,
 username TEXT,
+investor_img TEXT, 
 email TEXT NOT NULL
 );
 
