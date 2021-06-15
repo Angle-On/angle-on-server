@@ -20,7 +20,7 @@ film_image TEXT NOT NULL,
 film_description TEXT NOT NULL,
 film_budget TEXT NOT NULL,
 film_url TEXT,
-film_genre TEXT NOT NULL
+film_genre JSON NOT NULL
 );
 
 CREATE TABLE investors (
